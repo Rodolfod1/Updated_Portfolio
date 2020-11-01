@@ -5,3 +5,32 @@ font-family: 'Noto Sans KR', sans-serif; */
 body{
     background-color: #3D4F78;
 }
+h1{
+    font-family: 'Kanit', sans-serif;
+}
+.bg-dark{
+    background-color: black;
+}
+.myflag{
+    opacity: 50%;
+}
+.myflag:hover{
+    opacity: 1000%;
+}
+.jumbotron {
+    background-color: transparent;
+    color: #B9B3C4;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+/*  if the screen is not mobile then the list is displayed on a grid  */
+@media screen and (min-width:700px) {
+    ul {
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        gap: 10px;
+            /* column-count: 2; will be another method to create the columns */
+        }
+}
+ ul{
+     gap: 60px;
+ }
