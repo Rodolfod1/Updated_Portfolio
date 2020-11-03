@@ -2,31 +2,41 @@
 font-family: 'Kanit', sans-serif;
 content
 font-family: 'Noto Sans KR', sans-serif; */
+*,*{
+    padding: 0%;
+    margin: 0%;
+}
 body{
     background-color: #3D4F78;
    /* height: 1500rem; */
 }
+.navbar {
+    background-color: #353338;
+   
+}
+.principal{
+    padding: 0%;
+    margin: 0%;
+}
+
+
 h1{
     font-family: 'Kanit', sans-serif;
 }
-.bg-dark{
-    background-color: black;
-}
+
 .myflag{
     opacity: 50%;
 }
 .myflag:hover{
     opacity: 1000%;
+
 }
+
 .jumbotron {
     padding-top: 0%;
     padding-bottom: 0%;
     margin-bottom: 0%;
-    /* padding: 0px, 20px, 0px, 20px; */
-   
-     background-color: transparent; 
-     /* background-color: greenyellow;  */
-  
+    background-color: transparent; 
     color: #B9B3C4; 
     font-family: 'Noto Sans KR', sans-serif;
 }
@@ -34,21 +44,41 @@ h1{
 @media screen and (min-width:700px) {
     ul {
         display: grid;
-        grid-template-columns: repeat(3,auto);
+        grid-template-columns: repeat(5,auto);
         gap: 10px;
+        /* font-size: smaller */
             /* column-count: 2; will be another method to create the columns */
         }
+        /* .d-block{
+            margin: 0  100px 0 400px;
+        }
+} */
 }
  ul{
      gap: 30px;
      margin-bottom: 0%;
+     margin-top: 0%;
+     /* font-size: smaller; */
  }
 
 
  .carousel{
+    margin-top: 60px;
      height: 5%;
-     background-color: chocolate;
+     background-color:transparent;
  }
-.d-block {
-    align-content: center;
+.d-block{
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper{
+    background-color: #3D4F78;
+    width: 6rem;
+  }
+  
+.hide {
+        display: none;
+    }
+i{
+    color: #B9B3C4; 
 }
