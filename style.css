@@ -46,14 +46,8 @@ h1{
         display: grid;
         grid-template-columns: repeat(5,auto);
         gap: 10px;
-        /* font-size: smaller */
-            /* column-count: 2; will be another method to create the columns */
         }
-        /* .d-block{
-            margin: 0  100px 0 400px;
-        }
-} */
-}
+ }
  ul{
      gap: 30px;
      margin-bottom: 0%;
@@ -79,6 +73,17 @@ h1{
 .hide {
         display: none;
     }
-i{
+i, .pf-container{
     color: #B9B3C4; 
+}
+
+.row-space{
+    margin-bottom: 10px;
+}
+.card {
+    background-color: transparent;
+    margin-top: 20px;
+}
+h3 {
+    font-size: 16px;
 }
