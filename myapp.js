@@ -42,7 +42,7 @@ var work=true;
         });
 // when the my picture is selected it will enlarge while the mouse is held down and return to its size when the mouse is released
 $("#foto").mousedown(function(){
- $("#mifoto").animate({ width: "200px" });
+ $("#mifoto").animate({ width: "180px" });
 });
  $("#foto").mouseup(function(){
     $("#mifoto").animate({ width: "40px" });
