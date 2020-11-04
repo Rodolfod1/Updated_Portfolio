@@ -91,3 +91,8 @@ h3 {
 .rounded-circle{
     width: 40px;
 }
+.title {
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+
+}
