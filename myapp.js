@@ -30,7 +30,7 @@ var work=true;
   var  bf,hm,work=false;
      }
      });
-    //  if the about is selected then hide everything else 
+    //  if the about is selected then hide everything else
     $("#casa").on("click",function(){
         console.log(hm);
         if (!hm){$("#about").removeClass("hide");
@@ -40,10 +40,13 @@ var work=true;
         var bf,hm,cnt=false;
         }
         });
+// when the my picture is selected it will enlarge while the mouse is held down and return to its size when the mouse is released
+$("#foto").mousedown(function(){
+ $("#mifoto").animate({ width: "200px" });
+});
+ $("#foto").mouseup(function(){
+    $("#mifoto").animate({ width: "40px" });
+});
 
-
-
-
-
-}); // this is the closing of the main function 
+}); // this is the closing of the main function
 
