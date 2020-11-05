@@ -2,10 +2,13 @@
 font-family: 'Kanit', sans-serif;
 content
 font-family: 'Noto Sans KR', sans-serif; */
-*,*{
+
+*,*::before,*::after {
+    box-sizing: border-box;
     padding: 0%;
     margin: 0%;
 }
+
 body{
     background-color: #3D4F78;
  
@@ -34,6 +37,8 @@ h1{
 
 .jumbotron {
   padding: 0%;
+  margin-left: 20px;
+  margin-right: 20px;
      background-color: transparent; 
     color: #B9B3C4; 
     font-family: 'Noto Sans KR', sans-serif;
@@ -42,13 +47,14 @@ h1{
 .nav-link{
     margin-left: 0%;
     margin-right: 0%;
-    padding: 8px;
+    padding: 0,8px,0,8px;
+    color: #B9B3C4; 
 }
 
 @media screen and (min-width:700px) {
     ul {
         display: grid;
-        grid-template-columns: repeat(5,auto);
+        grid-template-columns: repeat(3,auto);
         gap: 10px;
         }
  }
@@ -61,7 +67,7 @@ h1{
 
 
  .carousel{
-    margin-top: 60px;
+    margin-top: 10px;
      height: 5%;
      background-color:transparent;
  }
@@ -99,4 +105,13 @@ h3 {
     text-align: center;
     font-family: 'Kanit', sans-serif;
 
+}
+
+.skills{
+    
+    background-color: #B9B3C4;
+    border-radius: 1%;
+    box-shadow:0 0 2px 2px;
+    color: black;
+    
 }

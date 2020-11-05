@@ -43,11 +43,11 @@
         <!-- <div id="sideNav" class="hide"> -->
         <nav id="sideNav" class="nav flex-sm-column hide" >
                 <a id="foto" class="nav-link" href="#"><img id="mifoto" src="./assets/RD.jpg" class="rounded-circle " ></a>
-                <a id="contact" class="nav-link active" href="#"><i class="fas fa-id-card fa-2x"></i></a>
                 <a id="casa" class="nav-link active" href="#"><i class="fas fa-home fa-2x"></i></a>
                 <a id="portfolio" class="nav-link" href="#"><i class="fas fa-briefcase fa-2x"></i></a>
                 <a class="nav-link" href="https://www.linkedin.com/in/rodolfo-diaz-2371b819/" target="blank"><i class="fab fa-linkedin fa-2x"></i></a>
                 <a class="nav-link" href="https://github.com/Rodolfod1" target="blank"><i class="fab fa-github fa-2x"></i> </a>
+                <a id="contact" class="nav-link active" href="#"><i class="fas fa-id-card fa-2x"></i></a>
               </nav>
         <!-- </div> -->
     </div>
@@ -56,18 +56,19 @@
             <!-- <div class="jumbotron jumbotron-fluid"> -->
               <div id="about" class="jumbotron">
                 <div class="container principal">
-                  <h1>About Rodolfo</h1>
+                  <h1>About Me:</h1>
                   <p class="mtext">For more than two decades, I have led multiple international and multicultural development teams, delivering disruptive top notch products and services for the automotive industry</p>
                                       <article>
                                         <P>As program manager I consider pragmatic communication to be among my strongest assets as well as executing “Agile” Methodologies for assertive business decisions and risk mitigation </P>
                                          <p>I have been recognized several times on different companies as best manager to lead global business units</p>
 
                                       </article>
-                                      <article>
-                                          <br>
+                                      <div class="card skills">         
+                                        
+                                          
                                           <!--  adding an unordered list for the skills -->
-                                          <H5 class="strong">My Core Skills</H5>
-                                          <ul>
+                                          <H5 class="card-title strong">My Core Skills</H5>
+                                          <ul class="card-body lista">
                                             <li> Global Program Management</li>
                                             <li>Business Development</li>
                                             <li> P&L Management</li>
@@ -84,15 +85,28 @@
                                             <li>KANBAN</li>
                                             <li>Automotive</li>
                                           </ul>
-                                        </article>
+                                        
+                                      </div>
+                                     
 
                 </div>
               </div>
   <!-- my portfolio -->
 
   <section id="folio" class="container hide pf-container">
-    <h1 class="title">My Portfolio by Services</h1>
-    <h2>Sofware and Web Development </h2>
+    <h1 class="title m-0 p-0">My Portfolio by Services</h1>
+    <nav class="nav justify-content-center m-0 p-0">
+      <a class="nav-link active pt-0" href="#bdm">Business Development</a>
+      <a class="nav-link active pt-0" href="#pmgr">Program Management</a>
+      <a class="nav-link active pt-0" href="#sft">Software & Web Development</a>
+    </nav>
+
+
+
+
+
+
+    <h2 id="sft" class="mt-10">Sofware and Web Development </h2>
        <!-- Wraping everything on a bootstrap grid  -->
             <div class="row row-space">
                     <!-- wraping this in colums  -->
@@ -123,8 +137,8 @@
                   <div class="col-sm">
                   <!-- making cards for each experience  -->
                   <div class="card ">
-                          <H3 class="card-title">Mindset Turnaround</H3>
-                          <img src="./Assets/Images/organizationalMidset.jpg" class="card-img-top" alt="mindset shift">
+                          <H3 class="card-title">Secure Password Generator</H3>
+                          <img src="./assets/PasswordGenerator.jpg" class="card-img-top" alt="mindset shift">
                           <div class="card-body">
                                 <p class="card-text"> Organizational mindset turnaround saving millions of dollars</p>
                           </div>
@@ -135,8 +149,8 @@
                   <div class="col-sm">
                     <!-- making cards for each experience  -->
                     <div class="card ">
-                            <H3 class="card-title">Program Management Leadership</H3>
-                            <img src="./Assets/Images/Agile2.png" class="card-img-top" alt="mindset shift">
+                            <H3 class="card-title">Program Management for Ask Karen Project</H3>
+                            <img src="./assets/askKaren.jpg" class="card-img-top" alt="mindset shift">
                             <div class="card-body">
                                   <p class="card-text">AGILE Methodology Master & Global Business Leader</p>
                             </div>
@@ -144,17 +158,17 @@
                     </div>
   </div>
   <!-- Business management -->
-  <h2>Business Management </h2>
+  <h2 id="bdm">Business Management </h2>
   <!-- Wraping everything on a bootstrap grid  -->
        <div class="row row-space">   
                <!-- wraping this in colums  -->
                <div class="col-sm">
                <!-- making cards for each experience  -->
                    <div class="card ">
-                       <H3 class="card-title">Timed Quiz App</H3>
-                       <img src="./assets/Codequiz.jpg" alt="Coding image" class="card-img-top">
+                       <H3 class="card-title">Mindset Turnaround</H3>
+                       <img src="./assets/organizationalMidset.jpg" alt="Coding image" class="card-img-top">
                        <div class="card-body">
-                           <p class="card-text">I have developed multiple business tools on C++, VBS and Python</p>
+                           <p class="card-text">Organizational mindset turnaround saving millions of dollars</p>
                        </div>
                    </div>  
                </div>
@@ -163,7 +177,7 @@
                <!-- making cards for each experience  -->
                    <div class="card ">
                        <H3 class="card-title">Team Coaching</H3>
-                       <img src="./Assets/Images/strategymeeting.jpg" class="card-img-top" alt="org meeting">
+                       <img src="./assets/strategymeeting.jpg" class="card-img-top" alt="org meeting">
                        <div class="card-body">
                            <p class="card-text">My strongest asset is to develop high efficient business teams</p>
                        </div>
@@ -197,7 +211,7 @@
 </div>      
 
 <!-- ===== Otro skill -->
-<h2>Sofware and Web Development </h2>
+<h2 id="pmgr">Program Management </h2>
 <!-- Wraping everything on a bootstrap grid  -->
      <div class="row row-space">   
              <!-- wraping this in colums  -->
@@ -287,47 +301,14 @@
 
 </div>
 
-
-
-
-
-
-
-
-
-
 <!-- +++++++++++++++  End of contact form ++++++++++++++++++++++++++++ -->
     </div>
 
-
-
-
-
-
-
-
-
-
-
           </div>
-
-
-
-
-
-
-
 
   </div>
 
 </div>
-
-
-
-
-
-
-
 
     <!-- adding the carousel here  -->
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -371,8 +352,6 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-
-
 
 <!-- linking my jscript -->
 
