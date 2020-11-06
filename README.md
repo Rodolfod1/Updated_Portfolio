@@ -20,13 +20,16 @@ An updated version of my portfolio
   - A hamburger button is deploying a side bar ( horizontal bar on mobile) with options for the user to navigate to the portfolio, contact, social media and github sections a goHome icon has been integrated.
   - A carousel is included on the footer to display news about me and additional skills - thinking into the commercial and marketing sides and usages of this.  
     
-    - This is an example of the page when it loads 
+* This is an example of the page when it loads 
+
     ![initialDeploymentImage](assets/landingPage.jpg)
 
-    - Example of sidebar as secondary Nav
+* Example of sidebar as secondary Nav
+
     ![editingExampleImage](assets/SideBar.jpg) 
 
-    - Example of multi language interface:
+* Example of multi language interface:
+
     ![PageInItalianImage](assets/Italianver.jpg)
  
 
