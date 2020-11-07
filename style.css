@@ -65,15 +65,15 @@ h1{
      /* font-size: smaller; */
  }
 
-
- .carousel{
-    margin-top: 10px;
-     height: 5%;
-     background-color:transparent;
- }
 .d-block{
   margin-left: auto;
   margin-right: auto;
+  width: auto;
+  
+ 
+}
+.img-car{
+    opacity: 60%;
 }
 .wrapper{
     background-color: #3D4F78;
@@ -86,8 +86,13 @@ h1{
 i, .pf-container{
     color: #B9B3C4; 
 }
-
-
+ .drk{
+     color: black;
+ }
+.lgt{
+    font-weight: bolder;
+    color: whitesmoke;
+}
 
 .row-space{
     margin-bottom: 10px;
