@@ -99,7 +99,11 @@ i, .pf-container{
 }
 .card {
     background-color: transparent;
+    border-radius: 1%;
+    box-shadow:0 0 4px 4px;
+    color:#B9B3C4;
     margin-top: 20px;
+    text-align: center;
 }
 h3 {
     font-size: 16px;
@@ -116,15 +120,18 @@ h3 {
 
 .skills{
     
-    background-color: #B9B3C499;
+    /* background-color: #B9B3C499; */
+    background-color: transparent;
     border-radius: 1%;
-    box-shadow:0 0 2px 2px;
-    color: black;
+    box-shadow:0 0 4px 4px;
+    color:#B9B3C4;
     
 }
 
 .btn-secondary {
     margin-left: 30px;
     background-color:  #B9B3C4;
+    border-radius: 4%;
+    box-shadow:0 0 1px 1px;
     color: black;
 }
